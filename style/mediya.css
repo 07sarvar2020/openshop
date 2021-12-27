@@ -1,0 +1,114 @@
+@media(prefers-color-scheme: dark){
+  
+    :root{
+        /* --body:#313131; */
+        --white: #fff;
+        --black: #151437;
+        --text: #fff;
+        --dots: #EBEBEB;
+        --bold: 'NotoSans-Bold';
+        --Light:"NotoSans-Light" ;
+        --Medium:"NotoSans-Medium" ;
+        --Regula:" NotoSans-Regula" ;
+        --blak:#000 ;
+    }
+    }
+    
+    @media(max-width: 1400px) {
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box_2{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-bottom: 25px;
+            justify-content: center;
+        }
+        .box_1{
+            margin: 0 auto;
+            
+        }
+        .box__lorem{
+            transform: translate(200px, -30px);
+        }
+       
+    }
+    @media(max-width:1200px) {
+       .box {
+        min-width: 270px;
+       }
+       .nav__link {
+           padding-right: 80px;
+       }
+       .new{
+        font-size: 16px;
+       }
+       .me-2{
+           width: 390px;
+       }
+       .section__title{
+           justify-content: flex-start;
+       }
+       .right1{
+        font-size: 43px;
+        margin-bottom: 130px;
+       }
+       .carousel-indicators [data-bs-target]{
+           width: 14px;
+           height: 0;
+       }
+       .carousel.pointer-event{
+           margin-bottom: 15px;
+       }
+       .box__border{
+           display: none;
+       }
+       .left {
+        margin-top: 4px;
+        margin-left: 45px;
+        }
+        /* .grid{
+            display: grid;
+            grid-template-areas: 
+            'box_1 box_1 box_3 box_3'
+            'box_2 box_2 box_4 box_4';
+        } */
+       
+    }
+    
+    @media(max-width:991px) {
+        .box {
+            min-width: 200px;
+           } 
+      
+    }
+    
+    @media(max-width:768px) {
+    
+       
+    }
+    
+    @media(max-width:767px) {
+       
+    
+     
+    }
+    
+    @media(max-width:650px) {
+      
+    }
+    
+    @media(max-width:425px) {
+        
+    
+    }
+    
+    @media(max-width:375px) {
+      
+    }
+    
+    @media(max-width:320px) {
+        
+    }
